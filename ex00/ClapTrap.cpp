@@ -2,17 +2,17 @@
 
 void	ClapTrap::attack(std::string const & target)
 {
-	std::cout << "ClapTrap " << _name <<" attack "<< target <<", causing "<< _atk_dmg << " points of damage! \n";
+	std::cout << "ClapTrap " << _name << " attack " << target << ", causing " << _atk_dmg << " points of damage! \n";
 }
 
 void	ClapTrap::takeDamage(unsigned int amount)
 {
-	std::cout << "ClapTrap " << _name <<" took "<< amount << " points of damage! \n";
+	std::cout << "ClapTrap " << _name << " took " << amount << " points of damage! \n";
 }
 
 void	ClapTrap::beRepaired(unsigned int amount)
 {
-	std::cout << "ClapTrap " << _name <<" repaired "<< amount << " points of hit points! \n";
+	std::cout << "ClapTrap " << _name << " repaired " << amount << " points of hit points! \n";
 }
 
 ClapTrap::ClapTrap()
